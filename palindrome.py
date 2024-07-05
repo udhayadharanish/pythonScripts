@@ -4,6 +4,4 @@ def palindrome(s):
             return False
     return True
         
-
-s = input("Enter the string: ")
-print(palindrome(s))
+print(palindrome("racecar"))
